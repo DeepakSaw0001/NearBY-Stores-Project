@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, sans-serif;
+      }
+      hr {
+        border: 1px solid rgba(156, 141, 121, 0.177);
+      }
+      hr:last-child {
+        border: 5px solid rgba(156, 141, 121, 0.177);
+      }
+      .view-all-btn {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 15px;
+        font-weight: bold;
+      }
+      .view-all-btn:hover {
+        background-color: #0056b3;
+      }
+
+      .component-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 5px;
+        margin-left: 5px;
+      }
+
+      .component div {
+        background-color: rgba(156, 141, 121, 0.177);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+      }
+      .component {
+        margin: 5px 10px;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+
+        font-size: 24px;
+        color: #000000;
+        transition: 0.1s;
+      }
+      .component div:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+
+      .component div p {
+        margin: 5px;
+        font-size: 18px;
+      }
+      img {
+        width: 150px;
+        height: 100px;
+        object-fit: contain;
+        background-color: white;
+        padding-bottom: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="component-container">
+      <div class="component-header">
+        <h2>Hardware</h2>
+        <button class="view-all-btn">view all</button>
+      </div>
+      <hr />
+
+      <div class="component">
+        <div>
+          <img
+            src="https://rukminim1.flixcart.com/image/1366/1366/xif0q/power-hand-tool-kit/c/u/d/-original-imahgfmsxacb5hvn.jpeg?q=90"
+            alt="Hand tool kit"
+          />
+          <p>hand tool kit</p>
+          <h5>₹452/-</h5>
+        </div>
+
+        <div>
+          <img
+            src="https://rukminim1.flixcart.com/image/1366/1366/xif0q/soldering-iron/s/x/k/7-beginners-6-in-1-economy-electric-soldering-iron-kit-7in1-original-imah2he6gsj4kz73.jpeg?q=90"
+            alt="Soldering iron kit"
+          />
+          <p>Soldering iron kit</p>
+          <h5>₹250/-</h5>
+        </div>
+        <div>
+          <img
+            src="https://rukminim1.flixcart.com/image/1366/1366/xif0q/multimeter/a/0/u/2000-lcd-disply-digital-multi-meter-digital-multimeter-diode-and-original-imahcfsgwf8xt83g.jpeg?q=90"
+            alt="Multimeter"
+          />
+          <p>Multimeter</p>
+          <h5>₹349/-</h5>
+        </div>
+
+        <div>
+          <img
+            src="https://rukminim1.flixcart.com/image/1366/1366/xif0q/screwdriver-set/d/3/c/1-01-spartan-original-imahg8fexgaa6rxy.jpeg?q=90"
+            alt="screwdriver set"
+          />
+          <p>screwdriver set</p>
+          <h5>₹150/-</h5>
+        </div>
+
+        <div>
+          <img
+            src="https://rukminim1.flixcart.com/image/1366/1366/xif0q/power-drill/d/5/s/13-id13-75-impact-ibell-original-imahk68yc3gcqhps.jpeg?q=90"
+            alt="Power drill"
+          />
+
+          <p>Power drill</p>
+          <h5>₹4500/-</h5>
+        </div>
+      </div>
+      <hr />
+    </div>
+
+    <div class="component-container">
+      <div class="component-header">
+        <h2>Home Appliances</h2>
+        <button class="view-all-btn">view all</button>
+      </div>
+      <hr />
+      <div class="component">
+        <div>
+          <img
+            src="https://rukminim1.flixcart.com/image/1366/1366/xif0q/fan/9/m/n/surebreeze-sea-sapphira-1-star-51-1-ceiling-fan-1200-crompton-original-imah7hhx4cs78emm.jpeg?q=90"
+            alt="Fan"
+          />
+          <p>Fan</p>
+          <h5>₹1499/-</h5>
+        </div>
+
+        <div>
+          <img
+            src="https://rukminim1.flixcart.com/image/1366/1366/xif0q/air-cooler/e/y/7/-original-imahh62q5aqfkh5c.jpeg?q=90"
+            alt="Air Cooler"
+          />
+          <p>Air Cooler</p>
+          <h5>₹5099/-</h5>
+        </div>
+
+        <div>
+          <img
+            src="https://m.media-amazon.com/images/I/41zea9f0fFL._SY300_SX300_QL70_FMwebp_.jpg"
+            alt="Mixer Grinder"
+          />
+          <p>Mixer Grinder</p>
+          <h5>₹3325/-</h5>
+        </div>
+        <div>
+          <img
+            src="https://rukminim1.flixcart.com/image/1366/1366/xif0q/ceiling-lamp/s/x/b/4-1-40-40-1-7-adw-400mm-golda-adwait-original-imahj7nfzy4qhnv5.jpeg?q=90"
+            alt="Ceiling Lamp"
+          />
+          <p>Ceiling Lamp</p>
+          <h5>₹1850/-</h5>
+        </div>
+
+        <div>
+          <img
+            src="https://rukminim1.flixcart.com/image/1366/1366/xif0q/television/i/m/0/-original-imah9ttkkjmahfs7.jpeg?q=90"
+            alt="Television"
+          />
+          <p>Television</p>
+          <h5>₹25000/-</h5>
+        </div>
+
+        <div>
+          <img
+            src="https://rukminim1.flixcart.com/image/1366/1366/xif0q/washing-machine-new/g/j/d/-original-imahgw42nfzavakx.jpeg?q=90"
+            alt="Washing Machine"
+          />
+
+          <p>Washing Machine</p>
+          <h5>₹12000/-</h5>
+        </div>
+      </div>
+      <hr />
+    </div>
+
+    <div class="component-container">
+      <div class="component-header">
+        <h2>Sports</h2>
+        <button class="view-all-btn">view all</button>
+      </div>
+      <hr />
+      <div class="component">
+        <div>
+          <img
+            src="https://rukminim1.flixcart.com/image/1366/1366/xif0q/ball/l/c/u/400-durable-pu-leather-football-for-practice-and-outdoor-sports-original-imahggzbsrbvxdzf.jpeg?q=90"
+            alt="Football"
+          />
+          <p>Football</p>
+          <h5>₹219/-</h5>
+        </div>
+
+        <div>
+          <img
+            src="https://rukminim1.flixcart.com/image/1366/1366/kpedle80/racquet/l/n/d/g4-3-25-inches-strung-zr-100-light-2-zr100lightcombo-85-original-imag3n7zf2zz5zgf.jpeg?q=90"
+            alt="Tennis racquet"
+          />
+          <p>Tennis racquet</p>
+          <h5>₹1490/-</h5>
+        </div>
+
+        <div>
+          <img
+            src="https://rukminim1.flixcart.com/image/1366/1366/xif0q/bat/t/c/2/790-lightweight-plastic-tennis-cricket-bat-for-kids-indoor-original-imahkd5fyztnjgyq.jpeg?q=90"
+            alt="Cricket bat"
+          />
+          <p>Cricket bat</p>
+          <h5>₹256/-</h5>
+        </div>
+        <div>
+          <img
+            src="https://rukminim1.flixcart.com/image/1366/1366/xif0q/ball/l/1/d/270-light-weight-tennis-and-cricket-ball-tennis-ball-soft-bouncy-original-imahg96zzjyprdsd.jpeg?q=90"
+            alt="Tennis ball"
+          />
+          <p>Tennis ball</p>
+          <h5>₹349/-</h5>
+        </div>
+
+        <div>
+          <img
+            src="https://rukminim1.flixcart.com/image/1366/1366/xif0q/kit/q/0/j/swim-combo-cap-google-earplug-na-17-royals-12-original-imahkq7sh7xrhwsg.jpeg?q=90"
+            alt="Swim kit"
+          />
+          <p>Swim kit</p>
+          <h5>₹163/-</h5>
+        </div>
+      </div>
+      <hr />
+    </div>
+
+    <div class="component-container">
+      <div class="component-header">
+        <h2>Electronics</h2>
+        <button class="view-all-btn">view all</button>
+      </div>
+      <hr />
+      <div class="component">
+        <div>
+          <img
+            src="https://rukminim1.flixcart.com/image/1366/1366/xif0q/headphone/k/9/u/wireless-earbuds-s-s-fashion-hub-original-imahg579njsj8653.jpeg?q=90"
+            alt="Headphone"
+          />
+          <p>Headphone</p>
+          <h5>₹399/-</h5>
+        </div>
+
+        <div>
+          <img
+            src="https://rukminim1.flixcart.com/image/1366/1366/xif0q/headphone/m/b/f/-original-imahgnf4tsngaqn8.jpeg?q=90"
+            alt="Headphone"
+          />
+          <p>Headphone</p>
+          <h5>₹1099/-</h5>
+        </div>
+
+        <div>
+          <img
+            src="https://rukminim1.flixcart.com/image/1366/1366/xif0q/smartwatch/x/j/s/-original-imah4eddxhvzpxhc.jpeg?q=90"
+            alt="Smartwatch"
+          />
+          <p>Smartwatch</p>
+          <h5>₹1599/-</h5>
+        </div>
+        <div>
+          <img
+            src="https://rukminim1.flixcart.com/image/1366/1366/xif0q/mobile/f/v/m/-original-imahft6chnx2vbuy.jpeg?q=90"
+            alt="Mobile"
+          />
+          <p>Mobile</p>
+          <h5>₹173000/-</h5>
+        </div>
+
+        <div>
+          <img
+            src="https://rukminim1.flixcart.com/image/1366/1366/xif0q/instant-camera/d/j/g/dummy-security-cctv-fake-bullet-camera-camera-dummy-cctv-camera-original-imahgvnabhvphhug.jpeg?q=90"
+            alt="Instant camera"
+          />
+          <p>Instant camera</p>
+          <h5>₹759/-</h5>
+        </div>
+
+        <div>
+          <img
+            src="https://rukminim1.flixcart.com/image/1366/1366/xif0q/headphone/a/v/a/-original-imahgnf4aqbnzg6g.jpeg?q=90"
+            alt="Neckband"
+          />
+          <p>Neckband</p>
+          <h5>₹999/-</h5>
+        </div>
+      </div>
+      <hr />
+    </div>
+
+    <div class="component-container">
+      <div class="component-header">
+        <h2>Daily Accessories</h2>
+        <button class="view-all-btn">view all</button>
+      </div>
+      <hr />
+      <div class="component">
+        <div>
+          <img
+            src="https://rukminim1.flixcart.com/image/1366/1366/xif0q/shoe/b/t/3/-original-imahan48mhehwj4m.jpeg?q=90"
+            alt="Shoe"
+          />
+          <p>Shoe</p>
+          <h5>₹499/-</h5>
+        </div>
+
+        <div>
+          <img
+            src="https://rukminim1.flixcart.com/image/1366/1366/xif0q/backpack/d/t/m/4-anti-theft-usb-charging-sling-bag-7-004-backpack-sph-5-13-original-imahh3dk6kbmf3hr.jpeg?q=90"
+            alt="Backpack"
+          />
+          <p>Backpack</p>
+          <h5>₹299/-</h5>
+        </div>
+
+        <div>
+          <img
+            src="https://rukminim1.flixcart.com/image/1366/1366/xif0q/shopsy-hand-messenger-bag/g/n/5/cream-hand-messenger-bag-for-women-2023-crm-burfi-style-hobo-original-imahjwbjejnnvveg.jpeg?q=90"
+            alt="ladies purse"
+          />
+          <p>ladies purse</p>
+          <h5>₹2500/-</h5>
+        </div>
+        <div>
+          <img
+            src="https://rukminim1.flixcart.com/image/1366/1366/xif0q/sandal/u/d/a/-original-imah84wxwt2zjnun.jpeg?q=90"
+            alt="Sandal"
+          />
+          <p>Sandal</p>
+          <h5>₹429/-</h5>
+        </div>
+
+        <div>
+          <img
+            src="https://rukminim1.flixcart.com/image/1366/1366/xif0q/shopsy-backpack/t/d/z/unisex-kids-school-backpack-bags-kg-17-backpack-am-creation-boys-original-imah5v5pt8b9vmv3.jpeg?q=90"
+            alt="School bag"
+          />
+          <p>School bag</p>
+          <h5>₹759/-</h5>
+        </div>
+      </div>
+      <hr />
+    </div>
+  </body>
+</html>

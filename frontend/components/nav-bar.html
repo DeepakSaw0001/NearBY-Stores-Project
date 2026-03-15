@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* NAVBAR */
+
+.navbar{
+position:fixed;
+top:0;
+left:0;
+right:0;
+background:#1f2937;
+padding:15px 40px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+color:white;
+z-index:1000;
+}
+
+.logo{
+font-size:22px;
+font-weight:bold;
+}
+/* SEARCH BOX */
+
+.container{
+position:relative;
+width:400px;
+}
+
+.container input{
+width:100%;
+padding:10px 10px 10px 40px;
+border-radius:30px;
+border:2px solid #2874f0;
+outline:none;
+}
+
+.container i{
+position:absolute;
+left:12px;
+top:50%;
+transform:translateY(-50%);
+color:gray;
+}
+
+/* SIGN IN DROPDOWN */
+
+.dropdown{
+position:relative;
+}
+
+.dropbtn{
+background:none;
+border:none;
+color:white;
+font-size:15px;
+cursor:pointer;
+}
+
+.dropdown-content{
+display:none;
+position:absolute;
+right:0;
+background:white;
+min-width:170px;
+box-shadow:0 5px 10px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a{
+display:block;
+padding:10px;
+text-decoration:none;
+color:black;
+}
+
+.dropdown-content a:hover{
+background:#f2f2f2;
+}
+
+.dropdown:hover .dropdown-content{
+display:block;
+}
+
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+      <div class="logo">🛍 NearBy Store</div>
+
+      <div class="container">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Search NearByStore" />
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">Sign In ▼</button>
+
+        <div class="dropdown-content">
+          <a href="#">Customer Login</a>
+          <a href="#">Retailer Login</a>
+          <a href="#">Wholesaler Login</a>
+          <hr />
+          <a href="#">Register</a>
+        </div>
+      </div>
+    </nav>
+</body>
+</html>
