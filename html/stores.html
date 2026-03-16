@@ -1,17 +1,211 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Page</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-<header>
-  dropdow
-</header>
+<!DOCTYPE html>
+<html>
 
-    <div class="component-container">
+<head>
+    <title>NearBy Store</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/deepak.css">
+
+
+</head>
+
+<body>
+
+     <!-- NAVBAR  -->
+
+    <nav class="navbar">
+
+        <div class="logo">🛍 NearBy Store</div>
+
+        <div class="container">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input id="search" type="text" placeholder="Search NearByStore">
+        </div>
+
+    <a href="loginPage.html">
+      <button class="view-all-btn">Sign In</button>
+</a>
+          
+
+      
+
+    </nav>
+
+     <!-- CATEGORY MENU  -->
+
+<div class="extraDiv"></div>
+<div class="nav-link-new">
+
+<a href="you.html" class="menu-item">For You</a>
+<a href="mobiles.html" class="menu-item">Mobiles</a>
+<a href="laptops.html" class="menu-item">Laptops</a>
+<a href="electronics.html" class="menu-item">Electronics</a>
+<a href="#home-applances" class="menu-item" >Home Appliances</a>
+<a href="sports.html" class="menu-item">Sports</a>
+<a href="books.html" class="menu-item">Books Shop</a>
+
+</div>
+
+    <!-- FEATURES  -->
+<!-- 
+    <div class="features">
+
+        <div class="feature-card">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <h3>Compare Prices</h3>
+            <p>See prices across local shops</p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fa-solid fa-location-dot"></i>
+            <h3>Nearby Shops</h3>
+            <p>Find stores closest to you</p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fa-solid fa-circle-check"></i>
+            <h3>Verified Stores</h3>
+            <p>All shops are verified</p>
+        </div>
+
+    </div> -->
+
+     <!-- SLIDER  -->
+
+    <div class="slider">
+
+        <div class="slides">
+
+            <img src="../images/big laptop.avif" class="slide">
+            <img src="../images/Shoes.png" class="slide">
+            <img src="../images/Big.jpg" class="slide">
+
+        </div>
+
+        <!-- <button class="prev" onclick="prevSlide()">.</button>
+         <button class="next" onclick="nextSlide()">.</button>  -->
+
+        <div class="dots">
+            <span onclick="currentSlide(0)"></span>
+            <span onclick="currentSlide(1)"></span>
+            <span onclick="currentSlide(2)"></span>
+        </div>
+
+    </div>
+
+     <!-- SUGGESTED PRODUCTS  -->
+<div class="products-outer-container">
+    <div class="suggested-header">
+        <h1>Suggested for you</h1>
+    </div>
+
+    <section class="products-inner-container">
+
+        <div class="product-card">
+            <img
+                src="https://rukminim2.flixcart.com/image/1280/1280/xif0q/computer/m/3/7/-original-imahayjpgztvrfyj.jpeg?q=90">
+            <p>Apple MacBook Air M2 2020</p>
+           
+            <p><i class="fa-solid fa-indian-rupee-sign"></i> 69,900</p>
+        </div>
+
+        <div class="product-card">
+            <img
+                src="https://rukminim2.flixcart.com/image/1280/1280/xif0q/computer/b/l/d/-original-imahk4ffm6m2ez6g.jpeg?q=90">
+            <p>MacBook Pro</p>
+         
+            <p><i class="fa-solid fa-indian-rupee-sign"></i> 69,900</p>
+        </div>
+
+        <div class="product-card">
+            <img
+                src="https://rukminim2.flixcart.com/image/574/574/xif0q/computer/o/v/3/-original-imahfkh32rjbqrhj.jpeg?q=90">
+            <p>Lenovo Ideapad Slim 5</p>
+            
+            <p><i class="fa-solid fa-indian-rupee-sign"></i> 69,900</p>
+        </div>
+
+        <div class="product-card">
+            <img
+                src="https://rukminim2.flixcart.com/image/574/574/xif0q/computer/s/q/6/-original-imahg5fx3rkzbvae.jpeg?q=90">
+            <p>HP Pavilion Intel Core i5</p>
+         
+            <p><i class="fa-solid fa-indian-rupee-sign"></i> 73,000</p>
+        </div>
+
+        <div class="product-card">
+            <img
+                src="https://rukminim2.flixcart.com/image/574/574/xif0q/computer/x/r/h/-original-imahgfdfymbzq8ym.jpeg?q=90">
+            <p>Acer Aspire 7 (i5 14th Gen)</p>
+           
+            <p><i class="fa-solid fa-indian-rupee-sign"></i> 69,900</p>
+        </div>
+
+    </section>
+
+ 
+
+    <section class="products-outer-container">
+
+   <div class="suggested-header">
+        <h1>Trending Products</h1>
+    </div>
+    <section class="products-inner-container">
+      <div class="product-card">
+            <img src="../images/puma.avif">
+            <p>PUMA..</p>
+           
+            <p>man colorsblocked sneakers...</p>
+            <p><i class="fa-solid fa-indian-rupee-sign"></i> 6,999</p>
+        </div>
+
+        <div class="product-card">
+            <img src="../images/boat.webp">
+            <p>Boat...</p>
+         
+            <p>Boat New Launch Rockerz 650pro(2025...) </p>
+            <p><i class="fa-solid fa-indian-rupee-sign"></i>3,298</p>
+        </div>
+
+        <div class="product-card">
+            <img src="../images/lenovo ThinkPad X13-gen-5....webp">
+            <p>Lenovo ThinkPad X13-gen...</p>
+        
+            <p><i class="fa-solid fa-indian-rupee-sign"></i>70,000</p>
+        </div>
+
+        <div class="product-card">
+            <img src="../images/boat2.webp">
+            <p>Boat...</p>
+           
+            <p>Boat New Launch Rockerz 650pro(2025...) </p>
+            <p><i class="fa-solid fa-indian-rupee-sign"></i>3,298</p>
+        </div>
+
+        <div class="product-card">
+            <img src="../images/Nike.jpg">
+            <p>Nike</p>
+         
+            <p>Sneaker for man Lightweight shoes for men....</p>
+            <p><i class="fa-solid fa-indian-rupee-sign"></i> 2,999</p>
+        </div> 
+
+      
+
+        <div class="product-card">
+            <img src="../images/Lenovo ideapad...webp">
+            <p>Lenovo ThinkPad X13-gen...</p>
+        
+            <p><i class="fa-solid fa-indian-rupee-sign"></i>70,000</p>
+        </div>
+    </section>
+
+        </section>
+    
+
+        <div class="component-container">
       <div class="component-header">
         <h2>Hardware</h2>
         <button class="view-all-btn">view all</button>
@@ -69,7 +263,7 @@
 
     <div class="component-container">
       <div class="component-header">
-        <h2>Home Appliances</h2>
+        <h2 id="home-applances">Home Appliances</h2>
         <button class="view-all-btn">view all</button>
       </div>
       <hr />
@@ -187,7 +381,7 @@
 
     <div class="component-container">
       <div class="component-header">
-        <h2>Electronics</h2>
+        <h2 >Electronics</h2>
         <button class="view-all-btn">view all</button>
       </div>
       <hr />
@@ -315,6 +509,10 @@
 
       <pre>&copy; 2026 <em>NearBy Stores</em>. All rights reserved.</pre>
     </footer>
-    <script src="script.js"></script>
-  </body>
-</html>
+    <script src="../javascript/deepak.js"></script>
+
+  <script src="../javascript/app.js"></script>
+
+    </body>
+
+</html> 
